@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sito ufficiale di ZeusFebo, band italiana. Musica, concerti, biografia e contatti. Contenuti provvisori in attesa dei materiali ufficiali.">
+  <meta name="theme-color" content="#0a0a0a">
+
+  <!-- Open Graph di base: sostituire URL e immagine prima della pubblicazione. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="ZeusFebo — Sito ufficiale">
+  <meta property="og:description" content="Musica, concerti e novità degli ZeusFebo.">
+  <meta property="og:url" content="https://esempio.it/">
+  <meta property="og:image" content="https://esempio.it/assets/images/og-zeusfebo.jpg">
+
+  <title>ZeusFebo — Sito ufficiale</title>
+  <!-- Icone dedicate e leggere; la versione evita la vecchia cache del browser. -->
+  <link rel="icon" href="favicon.png?v=5" type="image/png" sizes="64x64">
+  <link rel="shortcut icon" href="favicon.png?v=5" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=5" sizes="180x180">
+  <link rel="stylesheet" href="css/style.css?v=2">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <!-- Header e navigazione principale -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="ZeusFebo, torna alla pagina iniziale">
+        <img src="assets/images/logo-zeusfebo.png" alt="Logo ZeusFebo">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Apri il menu</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navigazione principale">
+        <a href="#singolo">Ultimo singolo</a>
+        <a href="#band">La band</a>
+        <a href="#musica">Musica</a>
+        <a href="#concerti">Concerti</a>
+        <a href="#galleria">Galleria</a>
+        <a href="#contatti">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <!-- Hero: il blocco grafico è provvisorio e non usa fotografie esterne. -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <h1 id="hero-title">ZEUS<span>FEBO</span></h1>
+        <p class="hero-line">Suoniamo quello che non riusciamo a dire</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#singolo" aria-label="Ascolta Giù la mano">Ascolta ora</a>
+          <a class="button button-ghost" href="#band">Scopri la band</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#singolo" aria-label="Scorri fino all'ultimo singolo">
+        <span aria-hidden="true">↓</span> Scorri
+      </a>
+    </section>
+
+    <!-- Ultimo singolo -->
+    <section class="section reveal" id="singolo" aria-labelledby="singolo-title">
+      <div class="container split-layout">
+        <img class="single-cover" src="assets/images/copertina-giu-la-mano.jpg" alt="Copertina del brano Giù la mano degli ZeusFebo" loading="lazy" decoding="async">
+        <div class="section-copy">
+          <p class="eyebrow">Fuori ora</p>
+          <h2 id="singolo-title">Giù la mano</h2>
+          <p class="lead">Alza il volume. “Giù la mano” ti aspetta.</p>
+          <div class="button-row music-links" aria-label="Link per ascoltare l'ultimo singolo">
+            <a class="button button-small" href="https://open.spotify.com/intl-it/track/3MHKgsiSMShWZWTAFxiSbO?si=e68e2dac76b94850" target="_blank" rel="noopener noreferrer">Spotify</a>
+            <a class="button button-small" href="https://youtu.be/xpBeGVVa0fo?si=DS-Szxfpn9S2fkB1" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a class="button button-small" href="https://music.apple.com/it/song/gi%C3%B9-la-mano/1885395601" target="_blank" rel="noopener noreferrer">Apple Music</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Biografia e componenti -->
+    <section class="section section-alt reveal" id="band" aria-labelledby="band-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Chi siamo</p>
+          <h2 id="band-title">La band</h2>
+          <div class="band-bio">
+            <p class="lead">Nati nel quartiere popolare romano della Garbatella, dove ogni vicolo ha una storia e ogni bar un ritornello, gli ZeusFebo sono cinque amici che nel 2023 hanno deciso di trasformare le chiacchiere e le notti romane in canzoni.</p>
+            <p class="lead">Zeus Febo Massimi (voce e chitarra acustica), Andrea Tabolacci (chitarra elettrica), Bruno Pantaleoni (tastiere e chitarra elettrica), Silvano Lama (basso) e Alessio Tabolacci (batteria).</p>
+            <p class="lead">Le loro canzoni nascono da un’urgenza sincera: raccontare la vita che scorre tra le mani, gli amori che iniziano e quelli che finiscono, i sogni che resistono anche quando sembra tutto perduto.</p>
+          </div>
+        </div>
+        <div class="members-grid">
+          <article class="member-card has-photo">
+            <img src="assets/images/zeus-febo-massimi.jpg" alt="Zeus Febo Massimi durante un'esibizione dal vivo" loading="lazy" decoding="async">
+            <h3>Zeus Febo Massimi</h3>
+            <p>Voce e chitarra acustica</p>
+          </article>
+          <article class="member-card has-photo">
+            <img src="assets/images/andrea-tabolacci.jpg" alt="Andrea Tabolacci alla chitarra elettrica durante un'esibizione dal vivo" loading="lazy" decoding="async">
+            <h3>Andrea Tabolacci</h3>
+            <p>Chitarra elettrica</p>
+          </article>
+          <article class="member-card has-photo">
+            <img src="assets/images/bruno-pantaleoni.jpg" alt="Bruno Pantaleoni alle tastiere durante un'esibizione dal vivo" loading="lazy" decoding="async">
+            <h3>Bruno Pantaleoni</h3>
+            <p>Tastiere e chitarra elettrica</p>
+          </article>
+          <article class="member-card has-photo">
+            <img src="assets/images/silvano-lama.jpg" alt="Silvano Lama al basso durante un'esibizione dal vivo" loading="lazy" decoding="async">
+            <h3>Silvano Lama</h3>
+            <p>Basso</p>
+          </article>
+          <article class="member-card has-photo">
+            <img src="assets/images/alessio-tabolacci.jpg" alt="Alessio Tabolacci alla batteria durante un'esibizione dal vivo" loading="lazy" decoding="async">
+            <h3>Alessio Tabolacci</h3>
+            <p>Batteria</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discografia -->
+    <section class="section reveal" id="musica" aria-labelledby="musica-title">
+      <div class="container">
+        <div class="section-heading row-heading">
+          <div><p class="eyebrow">Discografia</p><h2 id="musica-title">Musica</h2></div>
+        </div>
+        <div class="release-grid">
+          <article class="release-card">
+            <a class="release-art" href="https://open.spotify.com/intl-it/track/3MHKgsiSMShWZWTAFxiSbO?si=b41226c22cb045dc" target="_blank" rel="noopener noreferrer" aria-label="Ascolta Giù la mano su Spotify">
+              <img src="assets/images/copertina-giu-la-mano.jpg" alt="Copertina del singolo Giù la mano" loading="lazy" decoding="async">
+            </a>
+            <p>2026</p><h3>Giù la mano</h3><span>Singolo</span>
+          </article>
+          <article class="release-card">
+            <a class="release-art" href="https://open.spotify.com/intl-it/track/1PPldBnxdKfhk3mMuLIMnx?si=2c96dd8931774e05" target="_blank" rel="noopener noreferrer" aria-label="Ascolta Fuori in balcone su Spotify">
+              <img src="assets/images/copertina-fuori-in-balcone.jpg" alt="Copertina del singolo Fuori in balcone" loading="lazy" decoding="async">
+            </a>
+            <p>2026</p><h3>Fuori in balcone</h3><span>Singolo</span>
+          </article>
+          <article class="release-card">
+            <a class="release-art" href="https://open.spotify.com/intl-it/track/1fO0my0iswQWQpD2YYdmIq?si=1615c04ce2e14725" target="_blank" rel="noopener noreferrer" aria-label="Ascolta Cinema su Spotify">
+              <img src="assets/images/copertina-cinema.jpg" alt="Copertina del singolo Cinema" loading="lazy" decoding="async">
+            </a>
+            <p>2025</p><h3>Cinema</h3><span>Singolo</span>
+          </article>
+          <article class="release-card">
+            <a class="release-art" href="https://open.spotify.com/intl-it/track/0JS1UbihA1EMK13bxnmLjq?si=34db9f0938bc4e32" target="_blank" rel="noopener noreferrer" aria-label="Ascolta Smartphone su Spotify">
+              <img src="assets/images/copertina-smartphone.jpg" alt="Copertina del singolo Smartphone" loading="lazy" decoding="async">
+            </a>
+            <p>2024</p><h3>Smartphone</h3><span>Singolo</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Concerti -->
+    <section class="section section-alt reveal" id="concerti" aria-labelledby="concerti-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Dal vivo</p><h2 id="concerti-title">Concerti</h2></div>
+        <p class="shows-updating">Date in aggiornamento</p>
+      </div>
+    </section>
+
+    <!-- Galleria: i blocchi sono pronti per essere sostituiti con foto reali. -->
+    <section class="section reveal" id="galleria" aria-labelledby="galleria-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Immagini</p><h2 id="galleria-title">Galleria</h2></div>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="assets/images/galleria-alessio-studio.jpg" alt="Alessio Tabolacci alla batteria durante una sessione in studio" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/images/galleria-zeus-studio.jpg" alt="Zeus Febo Massimi al microfono durante una registrazione in studio" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/images/galleria-andrea-studio.jpg" alt="Andrea Tabolacci alla chitarra elettrica durante una sessione in studio" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/images/galleria-silvano-studio.jpg" alt="Silvano Lama al basso durante una sessione in studio" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-item gallery-feature">
+            <img src="assets/images/galleria-bruno-live.jpg" alt="Bruno Pantaleoni alle tastiere durante un concerto" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contatti -->
+    <section class="section contact-section reveal" id="contatti" aria-labelledby="contatti-title">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">Parliamone</p>
+          <h2 id="contatti-title">Contatti</h2>
+          <p class="lead">Per concerti, stampa e collaborazioni.</p>
+        </div>
+        <div class="contact-actions">
+          <form class="contact-form" id="contact-form" action="mailto:info@zeusfebo.it" method="post" enctype="text/plain" aria-describedby="form-note">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="contact-name">Nome</label>
+                <input id="contact-name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="form-field">
+                <label for="contact-email">Email</label>
+                <input id="contact-email" name="email" type="email" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="contact-topic">Motivo del contatto</label>
+              <select id="contact-topic" name="topic" required>
+                <option value="info@zeusfebo.it">Informazioni generali</option>
+                <option value="booking@zeusfebo.it">Concerti e booking</option>
+                <option value="stampa@zeusfebo.it">Stampa e interviste</option>
+                <option value="collaborazioni@zeusfebo.it">Collaborazioni</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="contact-subject">Oggetto</label>
+              <input id="contact-subject" name="subject" type="text" required>
+            </div>
+            <div class="form-field">
+              <label for="contact-message">Messaggio</label>
+              <textarea id="contact-message" name="message" rows="6" required></textarea>
+            </div>
+            <button class="contact-submit" type="submit">Prepara la mail <span aria-hidden="true">↗</span></button>
+            <p class="form-note" id="form-note">Il pulsante aprirà la tua app di posta con il messaggio già compilato.</p>
+          </form>
+          <div class="contact-channels" aria-label="Indirizzi email degli ZeusFebo">
+            <a href="mailto:info@zeusfebo.it"><span>Informazioni generali</span><strong>info@zeusfebo.it</strong></a>
+            <a href="mailto:booking@zeusfebo.it"><span>Concerti e booking</span><strong>booking@zeusfebo.it</strong></a>
+            <a href="mailto:stampa@zeusfebo.it"><span>Stampa e interviste</span><strong>stampa@zeusfebo.it</strong></a>
+            <a href="mailto:collaborazioni@zeusfebo.it"><span>Collaborazioni</span><strong>collaborazioni@zeusfebo.it</strong></a>
+          </div>
+          <nav class="social-links" aria-label="Profili social degli ZeusFebo">
+            <a href="https://www.instagram.com/zeusfebo/" target="_blank" rel="noopener noreferrer" aria-label="ZeusFebo su Instagram">
+              <span class="social-icon social-instagram" aria-hidden="true"></span>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61563407249927" target="_blank" rel="noopener noreferrer" aria-label="ZeusFebo su Facebook">
+              <span class="social-icon social-facebook" aria-hidden="true">f</span>
+            </a>
+            <a href="https://www.youtube.com/@ZeusFebo" target="_blank" rel="noopener noreferrer" aria-label="ZeusFebo su YouTube">
+              <span class="social-icon social-youtube" aria-hidden="true"></span>
+            </a>
+            <a href="https://open.spotify.com/intl-it/artist/5oTkNP0TxFkiQBjz8PpSzR?si=5H3p7w5AT4irZOVLBc1NBg" target="_blank" rel="noopener noreferrer" aria-label="ZeusFebo su Spotify">
+              <svg class="spotify-official-icon" viewBox="0 0 236.05 225.25" aria-hidden="true" focusable="false">
+                <path d="m122.37,3.31C61.99.91,11.1,47.91,8.71,108.29c-2.4,60.38,44.61,111.26,104.98,113.66,60.38,2.4,111.26-44.6,113.66-104.98C229.74,56.59,182.74,5.7,122.37,3.31Zm46.18,160.28c-1.36,2.4-4.01,3.6-6.59,3.24-.79-.11-1.58-.37-2.32-.79-14.46-8.23-30.22-13.59-46.84-15.93-16.62-2.34-33.25-1.53-49.42,2.4-3.51.85-7.04-1.3-7.89-4.81-.85-3.51,1.3-7.04,4.81-7.89,17.78-4.32,36.06-5.21,54.32-2.64,18.26,2.57,35.58,8.46,51.49,17.51,3.13,1.79,4.23,5.77,2.45,8.91Zm14.38-28.72c-2.23,4.12-7.39,5.66-11.51,3.43-16.92-9.15-35.24-15.16-54.45-17.86-19.21-2.7-38.47-1.97-57.26,2.16-1.02.22-2.03.26-3.01.12-3.41-.48-6.33-3.02-7.11-6.59-1.01-4.58,1.89-9.11,6.47-10.12,20.77-4.57,42.06-5.38,63.28-2.4,21.21,2.98,41.46,9.62,60.16,19.74,4.13,2.23,5.66,7.38,3.43,11.51Zm15.94-32.38c-2.1,4.04-6.47,6.13-10.73,5.53-1.15-.16-2.28-.52-3.37-1.08-19.7-10.25-40.92-17.02-63.07-20.13-22.15-3.11-44.42-2.45-66.18,1.97-5.66,1.15-11.17-2.51-12.32-8.16-1.15-5.66,2.51-11.17,8.16-12.32,24.1-4.89,48.74-5.62,73.25-2.18,24.51,3.44,47.99,10.94,69.81,22.29,5.12,2.66,7.11,8.97,4.45,14.09Z"/>
+              </svg>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Copyright © <span id="current-year"></span> ZeusFebo</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Torna all'inizio della pagina">↑</button>
+</body>
+</html>
